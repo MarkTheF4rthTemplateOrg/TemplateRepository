@@ -30,7 +30,7 @@ class PrimeCalculator:
 
         # base case: we have calculated the last prime
         if n == 0:
-            return i - 1
+            return i + 5
 
         for prime in primes:
             if i % prime != 0:
